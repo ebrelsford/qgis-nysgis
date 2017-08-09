@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>QGIS</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" />
+
+        <link href='//fonts.googleapis.com/css?family=Alegreya Sans' rel='stylesheet' type='text/css'>
+
+        <link href="css/pig.css" rel="stylesheet" type="text/css" />
+        <link href="css/base.css" rel="stylesheet" />
+
+        <script src="js/pig.js"></script>
+    </head>
+    <body>
+
+        <div class="slide">
+            <h2>bit.ly/aug10-nysgis-qgis</h2>
+        </div>
+
+        <div class="slide">
+            <h2>me:</h2>
+            <h3>Eric Brelsford</h3>
+            <h3>hi@ebrelsford.com</h3>
+        </div>
+
+        <div class="slide">
+            <h2>me:</h2>
+            <h3>freelance programmer, mapmaker, teacher</h3>
+        </div>
+
+        <div class="slide" style="background-image: url(img/urban-reviewer-full.png);">
+            <a href="http://urbanreviewer.org" class="source">source</a>
+        </div>
+
+        <div class="slide" style="background-image: url(img/cyl.png);">
+            <a href="http://map.curbyourlitter.org" class="source">source</a>
+        </div>
+
+        <div class="slide">
+            <h2>Agenda</h2>
+            <ul style="list-style: disc;">
+                <li>What is QGIS?</li>
+                <li>Basic usage (opening and styling data)</li>
+                <li>Advanced usage (spatial operations)</li>
+                <li>Plugins</li>
+            </ul>
+        </div>
+
+        <div class="slide" style="background-image: url(img/qgis-logo.png);">
+        </div>
+
+        <div class="slide" style="background-image: url(img/qgis-logo.png);">
+            <h2>QGIS</h2>
+        </div>
+
+        <div class="slide" style="background-image: url(img/qgis-logo.png);">
+            <h2>QGIS</h2>
+            <h2>(no longer Quantum GIS)</h2>
+        </div>
+
+        <div class="slide" style="background-image: url(img/qgis-pronounciation.png);">
+            <a class="source" href="https://twitter.com/kgjenkins/status/382880224523739136">source</a>
+        </div>
+
+        <div class="slide" style="background-image: url(img/qgis-logo.png);">
+            <h2>QGIS is free and open source</h2>
+        </div>
+
+        <div class="slide" style="background-image: url(img/qgis-logo.png);">
+            <h2>QGIS supports a wide variety of data formats and databases</h2>
+        </div>
+
+        <div class="slide" style="background-image: url(img/qgis-logo.png);">
+            <h2>QGIS uses the layer model that many GISs use</h2>
+        </div>
+
+        <div class="slide" style="background-image: url(img/arc-vs-q.png);">
+            <a class="source" href="http://gisgeography.com/qgis-arcgis-differences/">source</a>
+        </div>
+
+        <div class="slide" style="background-image: url(img/qgis-start.png);">
+            <a class="source" href="https://www.youtube.com/watch?v=sQ8ytFJE_Wk">source</a>
+        </div>
+
+        <div class="slide" style="background-image: url(img/qgis-start.png);">
+            <h2>"I'd like to see data from PostGIS...but there's nothing on Linux to do that."</h2>
+            <a class="source" href="https://www.youtube.com/watch?v=sQ8ytFJE_Wk">source</a>
+        </div>
+
+        <div class="slide" style="background-image: url(img/qgis-github.png);">
+            <a class="source" href="https://github.com/qgis/QGIS">source</a>
+        </div>
+
+        <div class="slide" style="background-image: url(img/qgis-budget.png);">
+            <a class="source" href="http://qgis.org/en/site/getinvolved/governance/finance/index.html">source</a>
+        </div>
+
+        <div class="slide" style="background-image: url(img/qgis-sponsorships.png);">
+            <a class="source" href="http://www.qgis.org/en/_downloads/PublicQGISfinancialreport2014.pdf">source</a>
+        </div>
+
+        <div class="slide" style="background-image: url(img/installing-qgis.png);">
+            <a class="source" href="http://qgis.org/en/site/forusers/download.html">source</a>
+        </div>
+
+        <div class="slide" style="background-image: url(img/installing-qgis.png);">
+            <h2>Installing QGIS</h2>
+            <a class="source" href="http://qgis.org/en/site/forusers/download.html">source</a>
+        </div>
+
+        <div class="slide" style="background-image: url(img/layout-all.png);">
+        </div>
+
+        <div class="slide" style="background-image: url(img/layout-map-canvas.png);">
+        </div>
+
+        <div class="slide" style="background-image: url(img/layout-map-canvas.png);">
+            <h2>map canvas</h2>
+        </div>
+
+        <div class="slide" style="background-image: url(img/layout-toolbars.png);">
+        </div>
+
+        <div class="slide" style="background-image: url(img/layout-toolbars.png);">
+            <h2>toolbars</h2>
+        </div>
+
+        <div class="slide" style="background-image: url(img/layout-layers.png);">
+        </div>
+
+        <div class="slide" style="background-image: url(img/layout-layers.png);">
+            <h2>layers panel</h2>
+        </div>
+
+        <div class="slide" style="background-image: url(img/layout-styling.png);">
+        </div>
+
+        <div class="slide" style="background-image: url(img/layout-styling.png);">
+            <h2>styling panel</h2>
+        </div>
+
+        <div class="slide" style="background-image: url(img/layout-status.png);">
+        </div>
+
+        <div class="slide" style="background-image: url(img/layout-status.png);">
+            <h2>status bar</h2>
+        </div>
+
+    </body>
+</html>
